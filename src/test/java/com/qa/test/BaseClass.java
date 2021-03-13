@@ -23,10 +23,10 @@ public class BaseClass {
 			chromeOptions.addArguments("--headless");
 			chromeOptions.addArguments("--no-sandbox");
 //WebDriver driver = new ChromeDriver(chromeOptions);
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(chromeOptions);
 			chromeOptions.addArguments("--headless");
 
-			driver = new ChromeDriver();
+		//	driver = new ChromeDriver();
 			
 			baseURL="https://www.facebook.com/";
 			driver.get(baseURL);
