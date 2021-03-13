@@ -27,9 +27,10 @@ public class BaseClass {
 			chromeOptions.addArguments("--headless");
 
 		//	driver = new ChromeDriver();
-			
+			System.out.println("logging into facebook");
 			baseURL="https://www.facebook.com/";
 			driver.get(baseURL);
+			System.out.println("login successfull");
 		}
 		
 		@AfterClass
