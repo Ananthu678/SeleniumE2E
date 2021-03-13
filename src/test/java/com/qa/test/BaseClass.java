@@ -16,7 +16,7 @@ public class BaseClass {
 		@BeforeClass
 		public void openBrowser() {
 			
-			System.setProperty("webdriver.chrome.driver","./Drivers\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
 			driver = new ChromeDriver();
 			
 			baseURL="https://www.facebook.com/";
